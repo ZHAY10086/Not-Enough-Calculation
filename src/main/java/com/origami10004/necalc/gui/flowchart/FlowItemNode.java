@@ -8,7 +8,7 @@ import com.origami10004.necalc.gui.GuiProductionCalc;
 import net.minecraft.client.resources.I18n;
 
 public class FlowItemNode extends FlowNode {
-	private Ingredients ingredient;
+	Ingredients ingredient;
 
 	public FlowItemNode(Ingredients ingredient, int x, int y) {
 		super(x, y);

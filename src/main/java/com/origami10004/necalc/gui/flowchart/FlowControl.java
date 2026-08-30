@@ -114,8 +114,19 @@ public class FlowControl {
 				totalProduced += step.getOutputRate(producer[1]);
 			}
 			temp.setValue(Math.max(totalConsumed, totalProduced));
+			FlowItemNode itemNode;
+			if (totalConsumed > totalProduced) {
+				itemNode = new FlowInputNode(temp, 0, 0);
+			} else if (totalProduced > totalConsumed) {
+				if (CalculatorState.getTargets().contains(item)) {
+					itemNode = new FlowOutputNode(temp, 0, 0);
+				} else {
+					itemNode = new FlowExcessNode(temp, 0, 0);
+				}
+			} else {
+				itemNode = new FlowItemNode(temp, 0, 0);
+			}
 
-			FlowItemNode itemNode = new FlowItemNode(temp, 0, 0);
 			itemToNode.put(item, itemNode);
 			itemNodes.add(itemNode);
 		}

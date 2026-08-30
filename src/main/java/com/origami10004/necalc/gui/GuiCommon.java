@@ -133,7 +133,18 @@ public abstract class GuiCommon extends GuiContainer {
 	public void drawItemSlot(int x, int y) {
 		GlStateManager.color(1.0F, 1.0F, 1.0F, 1.0F);
 		this.mc.getTextureManager().bindTexture(SLOT_TEXTURE);
-		drawModalRectWithCustomSizedTexture(x, y, 0, 0, 18, 18, 18, 18);
+		drawModalRectWithCustomSizedTexture(x, y, 0, 0, 18, 18, 78, 20);
+	}
+
+	public void drawItemSlot(int x, int y, int variant) {
+		if (variant == 0) {
+			drawItemSlot(x, y);
+			return;
+		}
+		if (variant < 0 || variant > 3) return;
+		GlStateManager.color(1.0F, 1.0F, 1.0F, 1.0F);
+		this.mc.getTextureManager().bindTexture(SLOT_TEXTURE);
+		drawModalRectWithCustomSizedTexture(x - 1, y - 1, (variant * 20) - 2, 0, 20, 20, 78, 20);
 	}
 
 	/**
