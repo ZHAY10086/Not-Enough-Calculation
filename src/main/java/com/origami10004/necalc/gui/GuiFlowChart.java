@@ -105,7 +105,7 @@ public class GuiFlowChart extends GuiCommon {
 			double cy = FlowControl.toCanvasY(mouseY);
 
 			// dragging node
-			for (int i = 0; i < FlowControl.getNodes().size(); i++) {
+			for (int i = FlowControl.getNodes().size() - 1; i >= 0; i--) {
 				FlowNode node = FlowControl.getNodes().get(i);
 				if (node.containsPoint(cx, cy)) {
 					node.startDragging(cx, cy);
@@ -186,7 +186,7 @@ public class GuiFlowChart extends GuiCommon {
 
 	@Override
 	public void renderHoveredToolTip(int mouseX, int mouseY) {
-		for (int i = 0; i < FlowControl.getNodes().size(); i++) {
+		for (int i = FlowControl.getNodes().size() - 1; i >= 0; i--) {
 			if (FlowControl.getNodes().get(i).containsPoint(FlowControl.toCanvasX(mouseX), FlowControl.toCanvasY(mouseY))) {
 				FlowControl.getNodes().get(i).drawHoveredToolTip(this, mouseX, mouseY);
 				return;
@@ -203,7 +203,7 @@ public class GuiFlowChart extends GuiCommon {
 
 	@Override
 	public Ingredients getHoveredStack(int mouseX, int mouseY) {
-		for (int i = 0; i < FlowControl.getNodes().size(); i++) {
+		for (int i = FlowControl.getNodes().size() - 1; i >= 0; i--) {
 			if (FlowControl.getNodes().get(i).containsPoint(FlowControl.toCanvasX(mouseX), FlowControl.toCanvasY(mouseY))) {
 				return FlowControl.getNodes().get(i).hoveredStack(mouseX, mouseY);
 			}
