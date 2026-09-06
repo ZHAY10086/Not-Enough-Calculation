@@ -7,6 +7,7 @@ import java.util.LinkedList;
 import java.util.HashMap;
 import java.util.Arrays;
 import java.util.LinkedHashMap;
+import java.util.Map;
 import org.hipparchus.optim.PointValuePair;
 import org.hipparchus.optim.linear.*;
 import org.hipparchus.optim.nonlinear.scalar.GoalType;
@@ -86,10 +87,19 @@ public class Solver {
 		}
 	}
 	public static Result solve() {
+		return solve(CalculatorState.getTargets(), RecipeState.getRecipes(), MachineState.getMachineSpeeds());
+	}
+
+	/**
+	 * Solves a calculation from supplied data without requiring Minecraft state.
+	 * This overload is also useful for importing and testing user-provided data.
+	 */
+	public static Result solve(List<Ingredients> suppliedTargets, List<RecipeEntry> suppliedRecipes,
+			Map<Ingredients, Integer> suppliedMachineSpeeds) {
 		Result res = new Result();
 		res.steps = new ArrayList<>();
-		targets = CalculatorState.getTargets();
-		recipes = RecipeState.getRecipes();
+		targets = suppliedTargets;
+		recipes = suppliedRecipes;
 		res.inputRates = new LinkedHashMap<>();
 		if (targets.isEmpty() || recipes.isEmpty()) {
 			return res;
@@ -109,7 +119,7 @@ public class Solver {
 		for (int i = 0; i < n; i++) {
 			RecipeEntry recipe = recipes.get(idToRecipe.get(i));
 			Ingredients machine = recipe.getMachine();
-			int speed = MachineState.getMachineSpeeds().getOrDefault(machine, 1);
+				int speed = suppliedMachineSpeeds.getOrDefault(machine, 1);
 			double craftsPerMinute = ((double)(1200 * speed)) / recipe.getTime();
 
 			for (Ingredients output : recipe.getOutputs()) {
@@ -123,12 +133,25 @@ public class Solver {
 		}
 
 		// Failsafe table
+		double maxCoeff = 0.0;
+		double minCoeff = Double.MAX_VALUE;
+		for (int i = 0; i < m; i++) {
+			for (int j = 0; j < n; j++) {
+				maxCoeff = Math.max(maxCoeff, Math.abs(matrix[i][j]));
+				if (matrix[i][j] != 0.0) minCoeff = Math.min(minCoeff, Math.abs(matrix[i][j]));
+			}
+		}
+		if (Necalc.logger != null) {
+			Necalc.logger.info("Max coefficient in matrix: " + maxCoeff);
+			Necalc.logger.info("Min coefficient in matrix: " + minCoeff);
+		}
+
 		for (int i = 0; i < m; i++) {
 			matrix[i][n + i] = 1.0;
 		}
 		// set cost, arbitary value surely i wont need to increase this
 		for (int i = 0; i < m; i++) {
-			cost[n + i] = 1000000.0;
+			cost[n + i] = maxCoeff * 1000.0;
 		}
 
 		// Rates input
@@ -180,7 +203,7 @@ public class Solver {
 				if (machineCount < 1e-9) continue;
 
 				RecipeEntry recipe = recipes.get(idToRecipe.get(i));
-				int speed = MachineState.getMachineSpeeds().getOrDefault(recipe.getMachine(), 1);
+					int speed = suppliedMachineSpeeds.getOrDefault(recipe.getMachine(), 1);
 				double craftsPerMinute = ((double)(1200 * speed)) / recipe.getTime();
 				double recipePerMinute = machineCount * craftsPerMinute;
 
@@ -203,7 +226,9 @@ public class Solver {
 			}
 
 		} catch (Exception e) {
-			Necalc.logger.error("Error during optimization: " + e.getMessage());
+			if (Necalc.logger != null) {
+				Necalc.logger.error("Error during optimization: " + e.getMessage());
+			}
 		}
 		return res;
 	}

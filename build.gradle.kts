@@ -14,7 +14,7 @@ plugins {
 val modId: String by project
 val modName: String by project
 val modLicense: String by project
-val modVersion: String = System.getenv("VERSION") ?: "0.2.3-indev"
+val modVersion: String = System.getenv("VERSION") ?: "0.2.6-indev"
 val modGroupId: String by project
 val modAuthors: String by project
 val modDescription: String by project
@@ -104,6 +104,8 @@ dependencies {
 
     shadow("org.hipparchus:hipparchus-optim:3.1")
     implementation("org.hipparchus:hipparchus-optim:3.1")
+
+    testImplementation("junit:junit:4.13.2")
 }
 
 mcpTasks {
@@ -151,6 +153,10 @@ idea {
 }
 
 tasks {
+    test {
+        useJUnit()
+    }
+
     processIdeaSettings {
         dependsOn(generateModMetadata)
     }

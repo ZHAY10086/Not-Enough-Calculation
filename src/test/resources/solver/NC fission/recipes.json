@@ -1,0 +1,2884 @@
+{
+  "recipes": [
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:particle_accelerator\"}",
+      "inputs": [
+        "fluid:decomposed_matter|100",
+        "fluid:hydrogen|100"
+      ],
+      "outputs": [
+        "fluid:atomic_nuclei|100",
+        "fluid:electrons|100"
+      ],
+      "time": 100
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:neutronium_bombarder\"}",
+      "inputs": [
+        "item:nuclearcraft:lithium:0:1.0",
+        "item:nuclearcraft:lithium:2:1.0",
+        "fluid:netrino_plasma|200"
+      ],
+      "outputs": [
+        "fluid:decomposed_matter|100"
+      ],
+      "time": 100
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:neutronium_cannon\"}",
+      "inputs": [
+        "item:avaritia:resource:2:1.0"
+      ],
+      "outputs": [
+        "fluid:netrino_plasma|100"
+      ],
+      "time": 100
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_infuser\"}",
+      "inputs": [
+        "item:thermalfoundation:material:136:10.0",
+        "fluid:electrons|6000"
+      ],
+      "outputs": [
+        "item:contenttweaker:negatively_charged_mithril:0:10.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_chemical_reactor\"}",
+      "inputs": [
+        "fluid:electrons|25",
+        "fluid:dense_plasma|1000"
+      ],
+      "outputs": [
+        "fluid:unbalanced_negative_matter|200"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:dyson_irradiator\"}",
+      "inputs": [
+        "item:avaritia:resource:5:4.0",
+        "item:contenttweaker:time_crystal:0:1.0",
+        "fluid:magnatar_stabilizer|200",
+        "fluid:atomic_nuclei|100",
+        "fluid:electrons|100"
+      ],
+      "outputs": [
+        "item:contenttweaker:infinite_resonator:0:1.0"
+      ],
+      "time": 200
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:high_impulse_accelerator\"}",
+      "inputs": [
+        "fluid:electrons|100"
+      ],
+      "outputs": [
+        "fluid:muons|100"
+      ],
+      "time": 100
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_infuser\"}",
+      "inputs": [
+        "item:thermalfoundation:material:136:10.0",
+        "fluid:atomic_nuclei|6000"
+      ],
+      "outputs": [
+        "item:contenttweaker:positively_charged_mithril:0:10.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:particle_accelerator\"}",
+      "inputs": [
+        "fluid:atomic_nuclei|100",
+        "fluid:hydrogen|100"
+      ],
+      "outputs": [
+        "fluid:protons|100",
+        "fluid:neutrons|100"
+      ],
+      "time": 100
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_chemical_reactor\"}",
+      "inputs": [
+        "fluid:atomic_nuclei|10",
+        "fluid:unbalanced_negative_matter|50"
+      ],
+      "outputs": [
+        "fluid:meitnerium|50",
+        "fluid:neutron|100"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_chemical_reactor\"}",
+      "inputs": [
+        "fluid:einstenium|10",
+        "fluid:atomic_nuclei|50"
+      ],
+      "outputs": [
+        "fluid:mendelevium|100"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:the_cube\"}",
+      "inputs": [
+        "fluid:higgs|100",
+        "fluid:liquid_uu_matter|100"
+      ],
+      "outputs": [
+        "item:contenttweaker:time_crystal:0:1.0"
+      ],
+      "time": 100
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:quark_decomposer\"}",
+      "inputs": [
+        "fluid:bosons|50",
+        "fluid:gluons|50",
+        "fluid:netrino_plasma|50"
+      ],
+      "outputs": [
+        "fluid:quarks|100",
+        "fluid:leptons|100",
+        "fluid:higgs|100"
+      ],
+      "time": 100
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:particle_accelerator\"}",
+      "inputs": [
+        "fluid:protons|50",
+        "fluid:neutrons|100"
+      ],
+      "outputs": [
+        "fluid:bosons|100"
+      ],
+      "time": 100
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:high_impulse_accelerator\"}",
+      "inputs": [
+        "fluid:bosons|50"
+      ],
+      "outputs": [
+        "fluid:gluons|50"
+      ],
+      "time": 100
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:dyson_scatterer\"}",
+      "inputs": [
+        "fluid:strange_matter|400",
+        "fluid:gluons|400"
+      ],
+      "outputs": [
+        "fluid:strange_quark_gluon_plasma|800"
+      ],
+      "time": 100
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_accelerator\"}",
+      "inputs": [
+        "fluid:gravitrons|100"
+      ],
+      "outputs": [
+        "fluid:strings|100"
+      ],
+      "time": 100
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:particle_accelerator\"}",
+      "inputs": [
+        "fluid:leptons|100",
+        "fluid:quarks|100"
+      ],
+      "outputs": [
+        "fluid:gravitrons|100"
+      ],
+      "time": 100
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:dyson_dynamizer\"}",
+      "inputs": [
+        "item:contenttweaker:time_crystal:0:4.0",
+        "item:contenttweaker:gem_of_recursion:0:4.0",
+        "fluid:pre_baryonic_plasma|1000",
+        "fluid:strings|400",
+        "fluid:gravitrons|400",
+        "fluid:unbalanced_negative_matter|400",
+        "fluid:plasma|1000"
+      ],
+      "outputs": [
+        "item:contenttweaker:gravitational_time_crystal:0:4.0",
+        "item:contenttweaker:quasar_charged_gem:0:4.0",
+        "fluid:low_grade_space_time_fuel|1000",
+        "fluid:neutron|2000"
+      ],
+      "time": 100
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_infuser\"}",
+      "inputs": [
+        "item:contenttweaker:material_part:77:10.0",
+        "fluid:unbalanced_negative_matter|500"
+      ],
+      "outputs": [
+        "fluid:bohrium|400"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_infuser\"}",
+      "inputs": [
+        "item:contenttweaker:inert_crystal:0:10.0",
+        "fluid:muons|1000"
+      ],
+      "outputs": [
+        "item:contenttweaker:muon_crystal:0:10.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_infuser\"}",
+      "inputs": [
+        "item:contenttweaker:inert_crystal:0:10.0",
+        "fluid:strings|1000"
+      ],
+      "outputs": [
+        "item:contenttweaker:strings_crystal:0:10.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:nuclearcraft:salt_mixer_idle:0:1.0",
+      "inputs": [
+        "fluid:sodium|72",
+        "fluid:potassium|288"
+      ],
+      "outputs": [
+        "fluid:nak|144"
+      ],
+      "time": 600
+    },
+    {
+      "machine": "item:nuclearcraft:electrolyser_idle:0:1.0",
+      "inputs": [
+        "fluid:naoh|666"
+      ],
+      "outputs": [
+        "fluid:sodium|144",
+        "fluid:oxygen|500"
+      ],
+      "time": 4800
+    },
+    {
+      "machine": "item:nuclearcraft:melter_idle:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:compound:5:1.0"
+      ],
+      "outputs": [
+        "fluid:naoh|666"
+      ],
+      "time": 800
+    },
+    {
+      "machine": "item:nuclearcraft:crystallizer_idle:0:1.0",
+      "inputs": [
+        "fluid:sodium_hydroxide_solution|666"
+      ],
+      "outputs": [
+        "item:nuclearcraft:compound:5:1.0"
+      ],
+      "time": 800
+    },
+    {
+      "machine": "item:nuclearcraft:chemical_reactor_idle:0:1.0",
+      "inputs": [
+        "fluid:sodium_fluoride_solution|666",
+        "fluid:water|1000"
+      ],
+      "outputs": [
+        "fluid:sodium_hydroxide_solution|666",
+        "fluid:hydrofluoric_acid|1000"
+      ],
+      "time": 800
+    },
+    {
+      "machine": "item:nuclearcraft:dissolver_idle:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:compound:3:1.0",
+        "fluid:water|1000"
+      ],
+      "outputs": [
+        "fluid:sodium_fluoride_solution|666"
+      ],
+      "time": 600
+    },
+    {
+      "machine": "item:nuclearcraft:manufactory_idle:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:gem_dust:8:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:compound:3:1.0"
+      ],
+      "time": 400
+    },
+    {
+      "machine": "item:nuclearcraft:electrolyser_idle:0:1.0",
+      "inputs": [
+        "fluid:salt_water|2000"
+      ],
+      "outputs": [
+        "fluid:chlorine|400",
+        "fluid:sodium|400"
+      ],
+      "time": 320
+    },
+    {
+      "machine": "item:nuclearcraft:dissolver_idle:0:1.0",
+      "inputs": [
+        "item:bewitchment:salt:0:1.0",
+        "fluid:water|100"
+      ],
+      "outputs": [
+        "fluid:salt_water|100"
+      ],
+      "time": 60
+    },
+    {
+      "machine": "item:nuclearcraft:electrolyser_idle:0:1.0",
+      "inputs": [
+        "fluid:koh|666"
+      ],
+      "outputs": [
+        "fluid:potassium|144",
+        "fluid:oxygen|500"
+      ],
+      "time": 4800
+    },
+    {
+      "machine": "item:nuclearcraft:melter_idle:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:compound:6:1.0"
+      ],
+      "outputs": [
+        "fluid:koh|666"
+      ],
+      "time": 800
+    },
+    {
+      "machine": "item:nuclearcraft:crystallizer_idle:0:1.0",
+      "inputs": [
+        "fluid:potassium_hydroxide_solution|666"
+      ],
+      "outputs": [
+        "item:nuclearcraft:compound:6:1.0"
+      ],
+      "time": 800
+    },
+    {
+      "machine": "item:nuclearcraft:chemical_reactor_idle:0:1.0",
+      "inputs": [
+        "fluid:potassium_fluoride_solution|666",
+        "fluid:water|1000"
+      ],
+      "outputs": [
+        "fluid:potassium_hydroxide_solution|666",
+        "fluid:hydrofluoric_acid|1000"
+      ],
+      "time": 800
+    },
+    {
+      "machine": "item:nuclearcraft:dissolver_idle:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:compound:4:1.0",
+        "fluid:water|1000"
+      ],
+      "outputs": [
+        "fluid:potassium_fluoride_solution|666"
+      ],
+      "time": 600
+    },
+    {
+      "machine": "item:nuclearcraft:manufactory_idle:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:gem_dust:9:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:compound:4:1.0"
+      ],
+      "time": 400
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:sparkled_spinning_wheel\"}",
+      "inputs": [
+        "item:minecraft:wool:15:128.0",
+        "item:bewitchment:bottle_of_blood:0:64.0",
+        "item:bewitchment:diabolical_vein:0:64.0"
+      ],
+      "outputs": [
+        "item:bewitchment:sanguine_cloth:0:128.0"
+      ],
+      "time": 1
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:terrestrial_cauldron\"}",
+      "inputs": [
+        "item:bewitchment:tongue_of_dog:0:1.0",
+        "item:minecraft:glass_bottle:0:1.0"
+      ],
+      "outputs": [
+        "item:bewitchment:bottle_of_blood:0:1.0"
+      ],
+      "time": 1
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:sparkled_spinning_wheel\"}",
+      "inputs": [
+        "item:bewitchment:heart:0:64.0",
+        "item:contenttweaker:fiery_unguent_bottle:0:64.0",
+        "item:bewitchment:witches_stitching:0:64.0",
+        "item:bewitchment:golden_thread:0:64.0"
+      ],
+      "outputs": [
+        "item:bewitchment:diabolical_vein:0:128.0"
+      ],
+      "time": 1
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:sparkled_spinning_wheel\"}",
+      "inputs": [
+        "item:minecraft:string:0:128.0",
+        "item:contenttweaker:liquid_witchcraft_bottle:0:128.0"
+      ],
+      "outputs": [
+        "item:bewitchment:witches_stitching:0:128.0"
+      ],
+      "time": 1
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:sparkled_spinning_wheel\"}",
+      "inputs": [
+        "item:minecraft:gold_nugget:0:64.0",
+        "item:minecraft:wheat:0:128.0",
+        "item:contenttweaker:liquid_witchcraft_bottle:0:64.0"
+      ],
+      "outputs": [
+        "item:bewitchment:golden_thread:0:128.0"
+      ],
+      "time": 1
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:phasing_still_pot\"}",
+      "inputs": [
+        "item:contenttweaker:tear_of_nature_bottle:0:1.0",
+        "fluid:cloudy_oil|32000",
+        "fluid:fishy_tincture|32000",
+        "fluid:coquina_tincture|32000",
+        "fluid:bewitched_tincture|32000"
+      ],
+      "outputs": [
+        "fluid:swirl_of_depths|32000",
+        "fluid:cloudy_oil|8000",
+        "fluid:coquina_tincture|8000",
+        "fluid:bewitched_tincture|8000"
+      ],
+      "time": 5
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:phasing_still_pot\"}",
+      "inputs": [
+        "item:contenttweaker:tear_of_nature_bottle:0:1.0",
+        "fluid:cloudy_oil|32000",
+        "fluid:dimensional_tincture|32000",
+        "fluid:ender_tincture|32000",
+        "fluid:glowing_tincture|32000"
+      ],
+      "outputs": [
+        "fluid:otherworldly_tears|32000",
+        "fluid:cloudy_oil|8000",
+        "fluid:dimensional_tincture|8000",
+        "fluid:ender_tincture|8000"
+      ],
+      "time": 5
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:phasing_still_pot\"}",
+      "inputs": [
+        "item:contenttweaker:tear_of_nature_bottle:0:1.0",
+        "fluid:tallow_tincture|64000",
+        "fluid:dragon_tincture|32000",
+        "fluid:fiery_unguent|32000"
+      ],
+      "outputs": [
+        "fluid:hellfire|32000",
+        "fluid:tallow_tincture|8000",
+        "fluid:fiery_unguent|8000",
+        "fluid:dragon_tincture|8000"
+      ],
+      "time": 5
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:phasing_still_pot\"}",
+      "inputs": [
+        "item:contenttweaker:tear_of_nature_bottle:0:1.0",
+        "fluid:demonic_tincture|32000",
+        "fluid:fiery_unguent|32000"
+      ],
+      "outputs": [
+        "fluid:demonic_elixir|48000",
+        "fluid:fiery_unguent|8000",
+        "fluid:demonic_tincture|8000"
+      ],
+      "time": 5
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:phasing_still_pot\"}",
+      "inputs": [
+        "item:contenttweaker:tear_of_nature_bottle:0:1.0",
+        "fluid:cloudy_oil|32000",
+        "fluid:blazing_tincture|32000",
+        "fluid:tallow_tincture|32000"
+      ],
+      "outputs": [
+        "fluid:fiery_unguent|32000",
+        "fluid:cloudy_oil|8000",
+        "fluid:blazing_tincture|8000",
+        "fluid:tallow_tincture|8000"
+      ],
+      "time": 5
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:resonance_dissolver\"}",
+      "inputs": [
+        "item:bewitchment:coquina_shell:0:32.0",
+        "fluid:bewitched_tincture|32000"
+      ],
+      "outputs": [
+        "fluid:coquina_tincture|32000"
+      ],
+      "time": 5
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:fiery_enmesher\"}",
+      "inputs": [
+        "fluid:ebb_of_death|1000",
+        "fluid:droplet_of_wisdom|1000",
+        "fluid:liquid_witchcraft|1000",
+        "fluid:essence_of_vitality|1000"
+      ],
+      "outputs": [
+        "fluid:bewitched_tincture|40000"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_infuser\"}",
+      "inputs": [
+        "item:contenttweaker:cloudy_oil_bottle:0:1.0"
+      ],
+      "outputs": [
+        "fluid:cloudy_oil|1000"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:resonance_dissolver\"}",
+      "inputs": [
+        "item:bewitchment:dimensional_sand:0:32.0",
+        "fluid:bewitched_tincture|32000"
+      ],
+      "outputs": [
+        "fluid:dimensional_tincture|32000"
+      ],
+      "time": 5
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:resonance_dissolver\"}",
+      "inputs": [
+        "item:minecraft:ender_pearl:0:32.0",
+        "fluid:bewitched_tincture|32000"
+      ],
+      "outputs": [
+        "fluid:ender_tincture|32000"
+      ],
+      "time": 5
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:resonance_dissolver\"}",
+      "inputs": [
+        "item:bewitchment:tallow:0:32.0",
+        "fluid:bewitched_tincture|32000"
+      ],
+      "outputs": [
+        "fluid:tallow_tincture|32000"
+      ],
+      "time": 5
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:resonance_dissolver\"}",
+      "inputs": [
+        "item:bewitchment:dragons_blood_resin:0:32.0",
+        "fluid:bewitched_tincture|32000"
+      ],
+      "outputs": [
+        "fluid:dragon_tincture|32000"
+      ],
+      "time": 5
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:resonance_dissolver\"}",
+      "inputs": [
+        "item:minecraft:blaze_powder:0:32.0",
+        "fluid:bewitched_tincture|32000"
+      ],
+      "outputs": [
+        "fluid:blazing_tincture|32000"
+      ],
+      "time": 5
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:resonance_dissolver\"}",
+      "inputs": [
+        "item:bewitchment:demon_heart:0:32.0",
+        "fluid:bewitched_tincture|32000"
+      ],
+      "outputs": [
+        "fluid:demonic_tincture|32000"
+      ],
+      "time": 5
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_infuser\"}",
+      "inputs": [
+        "item:minecraft:glass_bottle:0:1.0",
+        "fluid:tear_of_nature|1000"
+      ],
+      "outputs": [
+        "item:contenttweaker:tear_of_nature_bottle:0:1.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:fiery_enmesher\"}",
+      "inputs": [
+        "fluid:oak_spirit|1000",
+        "fluid:spruce_heart|1000",
+        "fluid:birch_soul|1000",
+        "fluid:acacia_resin|1000"
+      ],
+      "outputs": [
+        "fluid:tear_of_nature|40000"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:resonance_dissolver\"}",
+      "inputs": [
+        "item:minecraft:fish:0:32.0",
+        "fluid:bewitched_tincture|32000"
+      ],
+      "outputs": [
+        "fluid:fishy_tincture|32000"
+      ],
+      "time": 5
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_infuser\"}",
+      "inputs": [
+        "item:contenttweaker:ebb_of_death_bottle:0:1.0"
+      ],
+      "outputs": [
+        "fluid:ebb_of_death|1000"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_infuser\"}",
+      "inputs": [
+        "item:contenttweaker:oak_spirit_bottle:0:1.0"
+      ],
+      "outputs": [
+        "fluid:oak_spirit|1000"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:honeysmelter_oven\"}",
+      "inputs": [
+        "item:aoa3:bloodtwister_sapling:0:16.0",
+        "item:minecraft:glass_bottle:0:16.0",
+        "fluid:for.honey|100"
+      ],
+      "outputs": [
+        "item:bewitchment:wood_ash:0:16.0",
+        "item:contenttweaker:ebb_of_death_bottle:0:16.0"
+      ],
+      "time": 5
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:honeysmelter_oven\"}",
+      "inputs": [
+        "item:aoa3:creep_sapling:0:16.0",
+        "item:minecraft:glass_bottle:0:16.0",
+        "fluid:for.honey|100"
+      ],
+      "outputs": [
+        "item:bewitchment:wood_ash:0:16.0",
+        "item:contenttweaker:cloudy_oil_bottle:0:16.0"
+      ],
+      "time": 1
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_infuser\"}",
+      "inputs": [
+        "item:contenttweaker:liquid_witchcraft_bottle:0:1.0"
+      ],
+      "outputs": [
+        "fluid:liquid_witchcraft|1000"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:resonance_dissolver\"}",
+      "inputs": [
+        "item:minecraft:glowstone_dust:0:32.0",
+        "fluid:bewitched_tincture|32000"
+      ],
+      "outputs": [
+        "fluid:glowing_tincture|32000"
+      ],
+      "time": 5
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_infuser\"}",
+      "inputs": [
+        "item:contenttweaker:acacia_resin_bottle:0:1.0"
+      ],
+      "outputs": [
+        "fluid:acacia_resin|1000"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:honeysmelter_oven\"}",
+      "inputs": [
+        "item:aoa3:stranglewood_sapling:0:16.0",
+        "item:minecraft:glass_bottle:0:16.0",
+        "fluid:for.honey|100"
+      ],
+      "outputs": [
+        "item:bewitchment:wood_ash:0:16.0",
+        "item:contenttweaker:oak_spirit_bottle:0:16.0"
+      ],
+      "time": 5
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:honeysmelter_oven\"}",
+      "inputs": [
+        "item:aoa3:creep_grass:0:16.0",
+        "item:minecraft:glass_bottle:0:16.0",
+        "fluid:for.honey|100"
+      ],
+      "outputs": [
+        "item:bewitchment:wood_ash:0:16.0",
+        "item:contenttweaker:liquid_witchcraft_bottle:0:16.0"
+      ],
+      "time": 5
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_infuser\"}",
+      "inputs": [
+        "item:contenttweaker:droplet_of_wisdom_bottle:0:1.0"
+      ],
+      "outputs": [
+        "fluid:droplet_of_wisdom|1000"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:honeysmelter_oven\"}",
+      "inputs": [
+        "item:aoa3:shadow_sapling:0:16.0",
+        "item:minecraft:glass_bottle:0:16.0",
+        "fluid:for.honey|100"
+      ],
+      "outputs": [
+        "item:bewitchment:wood_ash:0:16.0",
+        "item:contenttweaker:droplet_of_wisdom_bottle:0:16.0"
+      ],
+      "time": 5
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_infuser\"}",
+      "inputs": [
+        "item:contenttweaker:essence_of_vitality_bottle:0:1.0"
+      ],
+      "outputs": [
+        "fluid:essence_of_vitality|1000"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:honeysmelter_oven\"}",
+      "inputs": [
+        "item:aoa3:deep_grass:0:16.0",
+        "item:minecraft:glass_bottle:0:16.0",
+        "fluid:for.honey|100"
+      ],
+      "outputs": [
+        "item:bewitchment:wood_ash:0:16.0",
+        "item:contenttweaker:essence_of_vitality_bottle:0:16.0"
+      ],
+      "time": 5
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_infuser\"}",
+      "inputs": [
+        "item:contenttweaker:spruce_heart_bottle:0:1.0"
+      ],
+      "outputs": [
+        "fluid:spruce_heart|1000"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_infuser\"}",
+      "inputs": [
+        "item:contenttweaker:birch_soul_bottle:0:1.0"
+      ],
+      "outputs": [
+        "fluid:birch_soul|1000"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:honeysmelter_oven\"}",
+      "inputs": [
+        "item:aoa3:achony_sapling:0:16.0",
+        "item:minecraft:glass_bottle:0:16.0",
+        "fluid:for.honey|100"
+      ],
+      "outputs": [
+        "item:bewitchment:wood_ash:0:16.0",
+        "item:contenttweaker:birch_soul_bottle:0:16.0"
+      ],
+      "time": 5
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:honeysmelter_oven\"}",
+      "inputs": [
+        "item:aoa3:lucalus_sapling:0:16.0",
+        "item:minecraft:glass_bottle:0:16.0",
+        "fluid:for.honey|100"
+      ],
+      "outputs": [
+        "item:bewitchment:wood_ash:0:16.0",
+        "item:contenttweaker:spruce_heart_bottle:0:16.0"
+      ],
+      "time": 5
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:honeysmelter_oven\"}",
+      "inputs": [
+        "item:aoa3:churry_sapling:0:16.0",
+        "item:minecraft:glass_bottle:0:16.0",
+        "fluid:for.honey|100"
+      ],
+      "outputs": [
+        "item:bewitchment:wood_ash:0:16.0",
+        "item:contenttweaker:acacia_resin_bottle:0:16.0"
+      ],
+      "time": 5
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_infuser\"}",
+      "inputs": [
+        "item:forestry:honey_drop:0:10.0"
+      ],
+      "outputs": [
+        "item:forestry:propolis:0:10.0",
+        "fluid:for.honey|2000"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:honeysmelter_oven\"}",
+      "inputs": [
+        "item:minecraft:beef:0:4.0",
+        "fluid:for.honey|100"
+      ],
+      "outputs": [
+        "item:minecraft:cooked_beef:0:4.0",
+        "item:bewitchment:tallow:0:4.0"
+      ],
+      "time": 5
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:terrestrial_cauldron\"}",
+      "inputs": [
+        "item:contenttweaker:demonic_manastone:0:1.0",
+        "item:bewitchment:sanguine_cloth:0:4.0"
+      ],
+      "outputs": [
+        "item:contenttweaker:manastone_dust:0:1.0",
+        "item:contenttweaker:demonic_manastone:0:1.0"
+      ],
+      "time": 10
+    },
+    {
+      "machine": "item:nuclearcraft:chemical_reactor_idle:0:1.0",
+      "inputs": [
+        "fluid:milk|2000",
+        "fluid:milk_chocolate|100"
+      ],
+      "outputs": [
+        "fluid:milkiest_chocolate|200"
+      ],
+      "time": 800
+    },
+    {
+      "machine": "item:nuclearcraft:salt_mixer_idle:0:1.0",
+      "inputs": [
+        "fluid:dark_chocolate|144",
+        "fluid:milk|250"
+      ],
+      "outputs": [
+        "fluid:milk_chocolate|288"
+      ],
+      "time": 300
+    },
+    {
+      "machine": "item:nuclearcraft:salt_mixer_idle:0:1.0",
+      "inputs": [
+        "fluid:unsweetened_chocolate|144",
+        "fluid:sugar|72"
+      ],
+      "outputs": [
+        "fluid:dark_chocolate|144"
+      ],
+      "time": 600
+    },
+    {
+      "machine": "item:nuclearcraft:salt_mixer_idle:0:1.0",
+      "inputs": [
+        "fluid:chocolate_liquor|144",
+        "fluid:cocoa_butter|144"
+      ],
+      "outputs": [
+        "fluid:unsweetened_chocolate|288"
+      ],
+      "time": 600
+    },
+    {
+      "machine": "item:nuclearcraft:melter_idle:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:ground_cocoa_nibs:0:1.0"
+      ],
+      "outputs": [
+        "fluid:chocolate_liquor|144"
+      ],
+      "time": 200
+    },
+    {
+      "machine": "item:nuclearcraft:manufactory_idle:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:roasted_cocoa_beans:0:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:ground_cocoa_nibs:0:1.0"
+      ],
+      "time": 200
+    },
+    {
+      "machine": "item:nuclearcraft:extractor_idle:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:ground_cocoa_nibs:0:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:cocoa_solids:0:1.0",
+        "fluid:cocoa_butter|144"
+      ],
+      "time": 1200
+    },
+    {
+      "machine": "item:nuclearcraft:melter_idle:0:1.0",
+      "inputs": [
+        "item:minecraft:sugar:0:1.0"
+      ],
+      "outputs": [
+        "fluid:sugar|144"
+      ],
+      "time": 400
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:spatial_crucible\"}",
+      "inputs": [
+        "item:divinerpg:divine_stone:0:1.0",
+        "item:aoa3:gold_coin:0:2.0",
+        "item:aoa3:silver_coin:0:8.0",
+        "item:contenttweaker:divine_ironwood_ingot:0:1.0"
+      ],
+      "outputs": [
+        "fluid:hint_of_divinity|4000"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:twilightforest:ironwood_raw:0:1.0",
+        "item:contenttweaker:starfield_gem:0:1.0"
+      ],
+      "outputs": [
+        "item:contenttweaker:divine_ironwood_ingot:0:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:spatial_crucible\"}",
+      "inputs": [
+        "item:contenttweaker:clausurae:0:1.0"
+      ],
+      "outputs": [
+        "fluid:hint_of_insanity|4000"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:botania:manaresource:12:4.0",
+        "item:contenttweaker:essence_darkness:0:1.0",
+        "item:contenttweaker:essence_fear:0:1.0",
+        "item:contenttweaker:oblitus:0:1.0",
+        "item:contenttweaker:essence_helplessness:0:1.0",
+        "item:contenttweaker:essence_solitude:0:1.0"
+      ],
+      "outputs": [
+        "item:contenttweaker:clausurae:0:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:minecraft:string:0:1.0",
+        "item:minecraft:redstone_block:0:1.0",
+        "item:botania:manaresource:8:1.0",
+        "item:botania:manaresource:15:1.0"
+      ],
+      "outputs": [
+        "item:botania:manaresource:12:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:elemental_altar\"}",
+      "inputs": [
+        "item:bloodmagic:component:16:1.0",
+        "item:contenttweaker:lanthanum_salt:0:1.0",
+        "item:abyssalcraft:odbcore:0:1.0",
+        "item:abyssalcraft:dreadplate:0:1.0",
+        "item:contenttweaker:otherwordly_tears_bottle:0:1.0",
+        "item:dimdoors:stable_fabric:0:1.0"
+      ],
+      "outputs": [
+        "item:contenttweaker:essence_darkness:0:1.0"
+      ],
+      "time": 10
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:elemental_altar\"}",
+      "inputs": [
+        "item:bloodmagic:component:11:1.0",
+        "item:contenttweaker:lanthanum_salt:0:1.0",
+        "item:abyssalcraft:odbcore:0:1.0",
+        "item:abyssalcraft:dreadplate:0:1.0",
+        "item:contenttweaker:otherwordly_tears_bottle:0:1.0",
+        "item:dimdoors:stable_fabric:0:1.0"
+      ],
+      "outputs": [
+        "item:contenttweaker:essence_fear:0:1.0"
+      ],
+      "time": 10
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:elemental_altar\"}",
+      "inputs": [
+        "item:bloodarsenal:base_item:6:1.0",
+        "item:contenttweaker:lanthanum_salt:0:1.0",
+        "item:abyssalcraft:odbcore:0:1.0",
+        "item:abyssalcraft:dreadplate:0:1.0",
+        "item:contenttweaker:otherwordly_tears_bottle:0:1.0",
+        "item:dimdoors:stable_fabric:0:1.0"
+      ],
+      "outputs": [
+        "item:contenttweaker:essence_helplessness:0:1.0"
+      ],
+      "time": 10
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:elemental_altar\"}",
+      "inputs": [
+        "item:bloodmagic:component:4:1.0",
+        "item:contenttweaker:lanthanum_salt:0:1.0",
+        "item:abyssalcraft:odbcore:0:1.0",
+        "item:abyssalcraft:dreadplate:0:1.0",
+        "item:contenttweaker:otherwordly_tears_bottle:0:1.0",
+        "item:dimdoors:stable_fabric:0:1.0"
+      ],
+      "outputs": [
+        "item:contenttweaker:essence_solitude:0:1.0"
+      ],
+      "time": 10
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:abyssalcraft:abyingot:0:4.0",
+        "item:minecraft:iron_block:0:2.0",
+        "item:minecraft:iron_ingot:0:2.0",
+        "item:abyssalcraft:cpearl:0:1.0"
+      ],
+      "outputs": [
+        "item:abyssalcraft:odbcore:0:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:abyssalcraft:dreadiumingot:0:8.0",
+        "item:abyssalcraft:dreadcloth:0:1.0"
+      ],
+      "outputs": [
+        "item:abyssalcraft:dreadplate:0:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:dimdoors:world_thread:0:2.0",
+        "item:minecraft:ender_pearl:0:1.0"
+      ],
+      "outputs": [
+        "item:dimdoors:stable_fabric:0:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:abyssalcraft:dreadfragment:0:4.0",
+        "item:minecraft:string:0:4.0",
+        "item:minecraft:leather:0:1.0"
+      ],
+      "outputs": [
+        "item:abyssalcraft:dreadcloth:0:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:minecraft:rotten_flesh:0:4.0",
+        "item:contenttweaker:dreadlands_matter:0:1.0"
+      ],
+      "outputs": [
+        "item:abyssalcraft:dreadfragment:0:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:berserker_forge\"}",
+      "inputs": [
+        "item:minecraft:bucket:0:1.0",
+        "item:minecraft:string:0:2.0",
+        "item:minecraft:gunpowder:0:1.0"
+      ],
+      "outputs": [
+        "item:bloodmagic:component:4:1.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:berserker_forge\"}",
+      "inputs": [
+        "item:bloodmagic:component:0:1.0",
+        "item:minecraft:prismarine_shard:0:1.0",
+        "item:minecraft:glass_bottle:0:1.0",
+        "item:minecraft:fish:3:1.0"
+      ],
+      "outputs": [
+        "item:bloodarsenal:base_item:6:1.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:berserker_forge\"}",
+      "inputs": [
+        "item:minecraft:glowstone:0:1.0",
+        "item:minecraft:torch:0:1.0",
+        "item:minecraft:redstone:0:2.0"
+      ],
+      "outputs": [
+        "item:bloodmagic:component:11:1.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:berserker_forge\"}",
+      "inputs": [
+        "item:minecraft:ender_eye:0:1.0",
+        "item:minecraft:ender_pearl:0:1.0",
+        "item:minecraft:gold_ingot:0:2.0"
+      ],
+      "outputs": [
+        "item:bloodmagic:component:16:1.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:sterilized_altar\"}",
+      "inputs": [
+        "item:abyssalcraft:crystalcluster:15:1.0",
+        "item:iceandfire:shiny_scales:0:1.0",
+        "item:abyssalcraft:essence:2:1.0",
+        "fluid:liquid_pe|200",
+        "fluid:liquid_lp|400"
+      ],
+      "outputs": [
+        "item:contenttweaker:oblitus:0:1.0"
+      ],
+      "time": 100
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:sterilized_altar\"}",
+      "inputs": [
+        "item:contenttweaker:omothol_matter:0:1.0",
+        "item:abyssalcraft:ethaxiumingot:0:24.0",
+        "fluid:liquid_pe|1000",
+        "fluid:liquid_lp|1000"
+      ],
+      "outputs": [
+        "item:abyssalcraft:essence:2:1.0"
+      ],
+      "time": 120
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:deepmoblearning:pristine_matter_witch:0:8.0",
+        "item:minecraft:prismarine_shard:0:1.0"
+      ],
+      "outputs": [
+        "item:iceandfire:shiny_scales:0:10.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:abyssalcraft:crystal:15:9.0"
+      ],
+      "outputs": [
+        "item:abyssalcraft:crystalcluster:15:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:berserker_forge\"}",
+      "inputs": [
+        "item:minecraft:sugar:0:1.0",
+        "fluid:water|2000"
+      ],
+      "outputs": [
+        "item:bloodmagic:component:0:1.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:abyssalcraft:crystalshard:15:9.0"
+      ],
+      "outputs": [
+        "item:abyssalcraft:crystal:15:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:abyssalcraft:crystallizer:0:1.0",
+      "inputs": [
+        "item:minecraft:blaze_powder:0:1.0"
+      ],
+      "outputs": [
+        "item:abyssalcraft:crystalshard:15:4.0"
+      ],
+      "time": 200
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_melter\"}",
+      "inputs": [
+        "item:nuclearcraft:neptunium:4:1.0"
+      ],
+      "outputs": [
+        "fluid:neptunium_237|144"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_melter\"}",
+      "inputs": [
+        "item:nuclearcraft:americium:8:1.0"
+      ],
+      "outputs": [
+        "fluid:americium_243|144"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_melter\"}",
+      "inputs": [
+        "item:nuclearcraft:curium:12:1.0"
+      ],
+      "outputs": [
+        "fluid:curium_247|144"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_melter\"}",
+      "inputs": [
+        "item:nuclearcraft:berkelium:0:1.0"
+      ],
+      "outputs": [
+        "fluid:berkelium_247|144"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_melter\"}",
+      "inputs": [
+        "item:nuclearcraft:californium:8:1.0"
+      ],
+      "outputs": [
+        "fluid:californium_251|144"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_melter\"}",
+      "inputs": [
+        "item:contenttweaker:nobelium_254:0:1.0"
+      ],
+      "outputs": [
+        "fluid:nobelium|72"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_melter\"}",
+      "inputs": [
+        "item:contenttweaker:fermium_257:0:1.0"
+      ],
+      "outputs": [
+        "fluid:fermium|72"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_melter\"}",
+      "inputs": [
+        "item:contenttweaker:lawrencium_262:0:1.0"
+      ],
+      "outputs": [
+        "fluid:lawrencium|72"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:nuclearcraft:electrolyser_idle:0:1.0",
+      "inputs": [
+        "fluid:depleted_fuel_leu_235|100"
+      ],
+      "outputs": [
+        "fluid:molten_scandium|30",
+        "fluid:uranium_235|20",
+        "fluid:uranium_238|40",
+        "fluid:plutonium_238|1"
+      ],
+      "time": 960
+    },
+    {
+      "machine": "item:nuclearcraft:electrolyser_idle:0:1.0",
+      "inputs": [
+        "fluid:rutherfordium_chloride|50"
+      ],
+      "outputs": [
+        "fluid:chlorine|10",
+        "fluid:rutherfordium|40"
+      ],
+      "time": 960
+    },
+    {
+      "machine": "item:nuclearcraft:dissolver_idle:0:1.0",
+      "inputs": [
+        "item:bewitchment:dimensional_sand:0:1.0",
+        "fluid:depleted_fuel_hea_242|50"
+      ],
+      "outputs": [
+        "fluid:europium|100"
+      ],
+      "time": 180
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_alloy_furnace\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_mixed_oxide:0:1.0",
+        "item:nuclearcraft:depleted_fuel_mixed_oxide:1:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:depleted_fuel_ic2:1:1.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:uranium:6:9.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:uranium:4:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:plutonium:5:1.0",
+        "item:nuclearcraft:uranium:8:8.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:fuel_mixed_oxide:0:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:plutonium:9:1.0",
+        "item:nuclearcraft:uranium:8:8.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:fuel_mixed_oxide:1:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:contenttweaker:depleted_herrr_fuel:0:1.0"
+      ],
+      "outputs": [
+        "item:contenttweaker:lawrencium_262:0:4.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:nuclearcraft:fuel_americium:2:4.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:depleted_fuel_americium:2:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:nuclearcraft:chemical_reactor_idle:0:1.0",
+      "inputs": [
+        "fluid:fuel_len_236|144",
+        "fluid:fluorine|1000"
+      ],
+      "outputs": [
+        "fluid:fuel_len_236_fluoride|144"
+      ],
+      "time": 800
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:part:1:4.0",
+        "item:nuclearcraft:ingot:8:4.0",
+        "item:nuclearcraft:americium:0:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:rtg_americium:0:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:nuclearcraft:salt_mixer_idle:0:1.0",
+      "inputs": [
+        "fluid:depleted_fuel_lep_239_fluoride|144",
+        "fluid:flibe|144"
+      ],
+      "outputs": [
+        "fluid:depleted_fuel_lep_239_fluoride_flibe|288"
+      ],
+      "time": 600
+    },
+    {
+      "machine": "item:nuclearcraft:chemical_reactor_idle:0:1.0",
+      "inputs": [
+        "fluid:depleted_fuel_lep_239|144",
+        "fluid:fluorine|1000"
+      ],
+      "outputs": [
+        "fluid:depleted_fuel_lep_239_fluoride|144"
+      ],
+      "time": 800
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_melter\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_plutonium:0:1.0"
+      ],
+      "outputs": [
+        "fluid:depleted_fuel_lep_239|1296"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:nuclearcraft:fuel_plutonium:0:4.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:depleted_fuel_plutonium:0:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:plutonium:4:1.0",
+        "item:nuclearcraft:plutonium:12:8.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:fuel_plutonium:0:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:plutonium:6:9.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:plutonium:4:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:plutonium:14:9.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:plutonium:12:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:americium:2:9.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:americium:0:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:americium:4:4.0",
+        "item:nuclearcraft:americium:8:5.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:fuel_americium:2:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_alloy_furnace\"}",
+      "inputs": [
+        "item:gendustry:honey_comb:14003:1.0",
+        "item:nuclearcraft:plutonium:8:16.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:plutonium:9:16.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:americium:6:9.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:americium:4:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:americium:10:9.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:americium:8:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_melter\"}",
+      "inputs": [
+        "item:nuclearcraft:fuel_neptunium:0:1.0"
+      ],
+      "outputs": [
+        "fluid:fuel_len_236|1296"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:neptunium:2:9.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:neptunium:0:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:neptunium:6:9.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:neptunium:4:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:immersiveengineering:storage:5:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:uranium:8:9.0",
+        "item:nuclearcraft:uranium:6:9.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:plutonium:10:9.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:plutonium:8:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_alloy_furnace\"}",
+      "inputs": [
+        "item:gendustry:honey_comb:14003:1.0",
+        "item:nuclearcraft:plutonium:4:16.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:plutonium:5:16.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:nuclearcraft:fuel_mixed_oxide:0:4.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:depleted_fuel_mixed_oxide:0:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:nuclearcraft:fuel_mixed_oxide:1:4.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:depleted_fuel_mixed_oxide:1:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:nuclearcraft:chemical_reactor_idle:0:1.0",
+      "inputs": [
+        "fluid:fastly_dacaying_plutonium|10",
+        "fluid:chlorine|40"
+      ],
+      "outputs": [
+        "fluid:rutherfordium_chloride|100"
+      ],
+      "time": 240
+    },
+    {
+      "machine": "item:nuclearcraft:dissolver_idle:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:plutonium:12:1.0",
+        "fluid:plasma|10"
+      ],
+      "outputs": [
+        "fluid:fastly_dacaying_plutonium|10"
+      ],
+      "time": 180
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:contenttweaker:herrr_fuel:0:4.0"
+      ],
+      "outputs": [
+        "item:contenttweaker:depleted_herrr_fuel:0:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:contenttweaker:lawrencium_258:0:1.0",
+        "item:contenttweaker:nobelium_255:0:1.0",
+        "item:contenttweaker:meatballium_323:0:1.0",
+        "item:nuclearcraft:plutonium:6:1.0"
+      ],
+      "outputs": [
+        "item:contenttweaker:herrr_fuel:0:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:contenttweaker:depleted_polonium:0:1.0"
+      ],
+      "outputs": [
+        "item:contenttweaker:lawrencium_258:0:4.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:contenttweaker:depleted_amfm_fuel:0:1.0"
+      ],
+      "outputs": [
+        "item:contenttweaker:nobelium_254:0:2.0",
+        "item:contenttweaker:nobelium_255:0:3.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:contenttweaker:depleted_heuf_fuel:0:1.0"
+      ],
+      "outputs": [
+        "item:contenttweaker:meatballium_324:0:20.0",
+        "item:contenttweaker:meatballium_323:0:25.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:contenttweaker:heuf_fuel:0:4.0"
+      ],
+      "outputs": [
+        "item:contenttweaker:depleted_heuf_fuel:0:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:contenttweaker:polonium_beryllium_alloy_ingot:0:4.0"
+      ],
+      "outputs": [
+        "item:contenttweaker:depleted_polonium:0:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:contenttweaker:depleted_lees_fuel:0:1.0"
+      ],
+      "outputs": [
+        "item:contenttweaker:fermium_252:0:5.0",
+        "item:contenttweaker:fermium_254:0:5.0",
+        "item:contenttweaker:fermium_255:0:5.0",
+        "item:contenttweaker:fermium_257:0:15.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:contenttweaker:lees_fuel:0:4.0"
+      ],
+      "outputs": [
+        "item:contenttweaker:depleted_lees_fuel:0:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:contenttweaker:einstenium_253:0:2.0",
+        "item:contenttweaker:einstenium_254:0:2.0"
+      ],
+      "outputs": [
+        "item:contenttweaker:lees_fuel:0:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:contenttweaker:amfm_fuel:0:4.0"
+      ],
+      "outputs": [
+        "item:contenttweaker:depleted_amfm_fuel:0:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:americium:0:1.0",
+        "item:contenttweaker:fermium_260:0:2.0"
+      ],
+      "outputs": [
+        "item:contenttweaker:amfm_fuel:0:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:contenttweaker:depleted_hefm_fuel:0:1.0"
+      ],
+      "outputs": [
+        "item:contenttweaker:fermium_260:0:4.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:contenttweaker:hefm_fuel:0:4.0"
+      ],
+      "outputs": [
+        "item:contenttweaker:depleted_hefm_fuel:0:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:contenttweaker:fermium_252:0:2.0",
+        "item:contenttweaker:fermium_254:0:2.0",
+        "item:contenttweaker:fermium_255:0:2.0",
+        "item:contenttweaker:fermium_257:0:2.0"
+      ],
+      "outputs": [
+        "item:contenttweaker:hefm_fuel:0:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:californium:10:9.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:californium:8:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:berkelium:2:9.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:berkelium:0:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:curium:14:9.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:curium:12:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:nuclearcraft:fuel_thorium:0:4.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:depleted_fuel_thorium:0:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_thorium:0:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:uranium:2:16.0",
+        "item:nuclearcraft:uranium:6:8.0",
+        "item:nuclearcraft:neptunium:2:8.0",
+        "item:nuclearcraft:neptunium:6:32.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:thorium:4:9.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:fuel_thorium:0:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:nuclearcraft:fuel_uranium:0:4.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:depleted_fuel_uranium:0:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:uranium:0:1.0",
+        "item:nuclearcraft:uranium:8:8.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:fuel_uranium:0:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_uranium:0:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:plutonium:6:4.0",
+        "item:nuclearcraft:plutonium:10:4.0",
+        "item:nuclearcraft:plutonium:14:32.0",
+        "item:nuclearcraft:americium:10:24.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:nuclearcraft:fuel_uranium:2:4.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:depleted_fuel_uranium:2:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:uranium:0:4.0",
+        "item:nuclearcraft:uranium:8:5.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:fuel_uranium:2:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_uranium:2:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:neptunium:2:32.0",
+        "item:nuclearcraft:neptunium:6:8.0",
+        "item:nuclearcraft:plutonium:14:16.0",
+        "item:nuclearcraft:americium:10:8.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:nuclearcraft:fuel_uranium:6:4.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:depleted_fuel_uranium:6:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:uranium:4:4.0",
+        "item:nuclearcraft:uranium:8:5.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:fuel_uranium:6:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_uranium:6:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:uranium:10:20.0",
+        "item:nuclearcraft:neptunium:6:16.0",
+        "item:nuclearcraft:plutonium:6:4.0",
+        "item:nuclearcraft:plutonium:14:24.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:nuclearcraft:fuel_neptunium:0:4.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:depleted_fuel_neptunium:0:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:neptunium:0:1.0",
+        "item:nuclearcraft:neptunium:4:8.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:fuel_neptunium:0:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_neptunium:0:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:neptunium:6:4.0",
+        "item:nuclearcraft:plutonium:14:32.0",
+        "item:nuclearcraft:americium:6:8.0",
+        "item:nuclearcraft:americium:10:20.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:nuclearcraft:fuel_neptunium:2:4.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:depleted_fuel_neptunium:2:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:neptunium:0:4.0",
+        "item:nuclearcraft:neptunium:4:5.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:fuel_neptunium:2:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_neptunium:2:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:uranium:10:16.0",
+        "item:nuclearcraft:plutonium:2:8.0",
+        "item:nuclearcraft:plutonium:6:8.0",
+        "item:nuclearcraft:plutonium:14:32.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_plutonium:0:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:plutonium:6:8.0",
+        "item:nuclearcraft:plutonium:14:24.0",
+        "item:nuclearcraft:curium:2:4.0",
+        "item:nuclearcraft:curium:10:28.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:nuclearcraft:fuel_plutonium:2:4.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:depleted_fuel_plutonium:2:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:plutonium:4:4.0",
+        "item:nuclearcraft:plutonium:12:5.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:fuel_plutonium:2:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_plutonium:2:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:americium:2:8.0",
+        "item:nuclearcraft:americium:6:24.0",
+        "item:nuclearcraft:curium:6:8.0",
+        "item:nuclearcraft:curium:10:24.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:nuclearcraft:fuel_plutonium:4:4.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:depleted_fuel_plutonium:4:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:plutonium:8:1.0",
+        "item:nuclearcraft:plutonium:12:8.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:fuel_plutonium:4:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_plutonium:4:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:plutonium:14:4.0",
+        "item:nuclearcraft:americium:6:4.0",
+        "item:nuclearcraft:americium:10:8.0",
+        "item:nuclearcraft:curium:10:48.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:nuclearcraft:fuel_plutonium:6:4.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:depleted_fuel_plutonium:6:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:plutonium:8:4.0",
+        "item:nuclearcraft:plutonium:12:5.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:fuel_plutonium:6:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_plutonium:6:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:americium:2:8.0",
+        "item:nuclearcraft:curium:6:8.0",
+        "item:nuclearcraft:curium:10:24.0",
+        "item:nuclearcraft:curium:14:24.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:nuclearcraft:fuel_americium:0:4.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:depleted_fuel_americium:0:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_americium:0:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:curium:2:8.0",
+        "item:nuclearcraft:curium:6:8.0",
+        "item:nuclearcraft:curium:10:40.0",
+        "item:nuclearcraft:curium:14:8.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:americium:4:1.0",
+        "item:nuclearcraft:americium:8:8.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:fuel_americium:0:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_americium:2:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:curium:6:16.0",
+        "item:nuclearcraft:curium:10:32.0",
+        "item:nuclearcraft:curium:14:8.0",
+        "item:nuclearcraft:berkelium:2:8.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:nuclearcraft:fuel_curium:0:4.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:depleted_fuel_curium:0:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:curium:0:1.0",
+        "item:nuclearcraft:curium:8:8.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:fuel_curium:0:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_curium:0:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:curium:10:32.0",
+        "item:nuclearcraft:berkelium:2:16.0",
+        "item:nuclearcraft:berkelium:6:8.0",
+        "item:nuclearcraft:californium:2:8.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:nuclearcraft:fuel_curium:2:4.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:depleted_fuel_curium:2:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_curium:2:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:curium:10:24.0",
+        "item:nuclearcraft:berkelium:2:24.0",
+        "item:nuclearcraft:berkelium:6:8.0",
+        "item:nuclearcraft:californium:2:8.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:curium:0:4.0",
+        "item:nuclearcraft:curium:8:5.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:fuel_curium:2:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:nuclearcraft:fuel_curium:4:4.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:depleted_fuel_curium:4:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:curium:4:1.0",
+        "item:nuclearcraft:curium:8:8.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:fuel_curium:4:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_curium:4:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:berkelium:2:40.0",
+        "item:nuclearcraft:berkelium:6:8.0",
+        "item:nuclearcraft:californium:2:4.0",
+        "item:nuclearcraft:californium:14:12.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:nuclearcraft:fuel_curium:6:4.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:depleted_fuel_curium:6:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_curium:6:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:berkelium:2:44.0",
+        "item:nuclearcraft:berkelium:6:4.0",
+        "item:nuclearcraft:californium:2:4.0",
+        "item:nuclearcraft:californium:10:8.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:curium:4:4.0",
+        "item:nuclearcraft:curium:8:5.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:fuel_curium:6:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:nuclearcraft:fuel_curium:8:4.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:depleted_fuel_curium:8:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:curium:12:1.0",
+        "item:nuclearcraft:curium:8:8.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:fuel_curium:8:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_curium:8:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:berkelium:2:20.0",
+        "item:nuclearcraft:berkelium:6:4.0",
+        "item:nuclearcraft:californium:10:8.0",
+        "item:nuclearcraft:californium:14:32.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:nuclearcraft:fuel_curium:10:4.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:depleted_fuel_curium:10:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:curium:12:4.0",
+        "item:nuclearcraft:curium:8:5.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:fuel_curium:10:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_curium:10:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:berkelium:6:8.0",
+        "item:nuclearcraft:californium:2:8.0",
+        "item:nuclearcraft:californium:10:24.0",
+        "item:nuclearcraft:californium:14:24.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:nuclearcraft:fuel_berkelium:0:4.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:depleted_fuel_berkelium:0:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:berkelium:4:1.0",
+        "item:nuclearcraft:berkelium:0:8.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:fuel_berkelium:0:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_berkelium:0:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:californium:2:4.0",
+        "item:nuclearcraft:californium:10:4.0",
+        "item:nuclearcraft:californium:14:56.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:nuclearcraft:fuel_berkelium:2:4.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:depleted_fuel_berkelium:2:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:berkelium:4:4.0",
+        "item:nuclearcraft:berkelium:0:5.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:fuel_berkelium:2:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_berkelium:2:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:californium:6:8.0",
+        "item:nuclearcraft:californium:10:8.0",
+        "item:nuclearcraft:californium:14:48.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:nuclearcraft:fuel_californium:0:4.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:depleted_fuel_californium:0:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:californium:0:1.0",
+        "item:nuclearcraft:californium:12:8.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:fuel_californium:0:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_californium:0:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:californium:6:16.0",
+        "item:nuclearcraft:californium:10:8.0",
+        "item:nuclearcraft:californium:14:40.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:nuclearcraft:fuel_californium:2:4.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:depleted_fuel_californium:2:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:californium:0:4.0",
+        "item:nuclearcraft:californium:12:5.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:fuel_californium:2:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_californium:2:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:californium:6:32.0",
+        "item:nuclearcraft:californium:10:16.0",
+        "item:nuclearcraft:californium:14:16.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:nuclearcraft:fuel_californium:4:4.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:depleted_fuel_californium:4:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:californium:8:1.0",
+        "item:nuclearcraft:californium:12:8.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:fuel_californium:4:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_californium:4:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:californium:10:4.0",
+        "item:nuclearcraft:californium:14:60.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:nuclearcraft:fuel_californium:6:4.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:depleted_fuel_californium:6:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:californium:8:4.0",
+        "item:nuclearcraft:californium:12:5.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:fuel_californium:6:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_californium:6:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:californium:10:16.0",
+        "item:nuclearcraft:californium:14:48.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:californium:2:9.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:californium:0:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:curium:6:9.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:curium:4:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:curium:10:9.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:curium:8:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:uranium:2:9.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:uranium:0:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:nuclearcraft:ingot_block:3:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:thorium:4:9.0",
+        "item:nuclearcraft:thorium:2:9.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:californium:14:9.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:californium:12:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_melter\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_americium:2:1.0"
+      ],
+      "outputs": [
+        "fluid:depleted_fuel_hea_242|1296"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_melter\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_uranium:4:1.0"
+      ],
+      "outputs": [
+        "fluid:depleted_fuel_leu_235|1296"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}",
+      "inputs": [
+        "item:nuclearcraft:fuel_uranium:4:4.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:depleted_fuel_uranium:4:4.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:uranium:4:1.0",
+        "item:nuclearcraft:uranium:8:8.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:fuel_uranium:4:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:modularmachinery:itemblueprint:0:1.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+      "inputs": [
+        "item:nuclearcraft:depleted_fuel_uranium:4:1.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:uranium:10:40.0",
+        "item:nuclearcraft:neptunium:6:8.0",
+        "item:nuclearcraft:plutonium:6:8.0",
+        "item:nuclearcraft:plutonium:10:8.0"
+      ],
+      "time": 2
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:curium:2:9.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:curium:0:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:californium:10:9.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:californium:8:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:berkelium:6:9.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:berkelium:4:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:plutonium:2:9.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:plutonium:0:1.0"
+      ],
+      "time": 20
+    },
+    {
+      "machine": "item:minecraft:crafting_table:0:1.0",
+      "inputs": [
+        "item:nuclearcraft:uranium:10:9.0"
+      ],
+      "outputs": [
+        "item:nuclearcraft:uranium:8:1.0"
+      ],
+      "time": 20
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "targets": [
+    "fluid:neptunium_237|6000",
+    "fluid:americium_243|6000",
+    "fluid:curium_247|6000",
+    "fluid:berkelium_247|6000",
+    "fluid:californium_251|6000",
+    "fluid:nobelium|6000",
+    "fluid:fermium|6000",
+    "fluid:lawrencium|6000",
+    "fluid:molten_scandium|6000",
+    "fluid:rutherfordium|6000",
+    "fluid:europium|6000",
+    "item:nuclearcraft:depleted_fuel_ic2:1:120.0",
+    "item:nuclearcraft:uranium:4:8940.0",
+    "item:nuclearcraft:fuel_mixed_oxide:0:840.0",
+    "item:nuclearcraft:fuel_mixed_oxide:1:840.0",
+    "item:contenttweaker:lawrencium_262:0:1380.0",
+    "item:nuclearcraft:depleted_fuel_americium:2:1200.0",
+    "fluid:fuel_len_236_fluoride|6000",
+    "item:nuclearcraft:rtg_americium:0:1920.0",
+    "fluid:depleted_fuel_lep_239_fluoride_flibe|720"
+  ]
+}

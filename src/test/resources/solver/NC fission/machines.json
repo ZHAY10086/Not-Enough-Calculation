@@ -1,0 +1,26 @@
+{
+  "machines": [
+    "item:modularmachinery:itemblueprint:0:20.0:{dynamicmachine:\"modularmachinery:particle_accelerator\"}",
+    "item:modularmachinery:itemblueprint:0:20.0:{dynamicmachine:\"modularmachinery:neutronium_bombarder\"}",
+    "item:modularmachinery:itemblueprint:0:20.0:{dynamicmachine:\"modularmachinery:neutronium_cannon\"}",
+    "item:modularmachinery:itemblueprint:0:8.0:{dynamicmachine:\"modularmachinery:mythic_processor_infuser\"}",
+    "item:modularmachinery:itemblueprint:0:20.0:{dynamicmachine:\"modularmachinery:high_impulse_accelerator\"}",
+    "item:modularmachinery:itemblueprint:0:20.0:{dynamicmachine:\"modularmachinery:the_cube\"}",
+    "item:modularmachinery:itemblueprint:0:20.0:{dynamicmachine:\"modularmachinery:quark_decomposer\"}",
+    "item:modularmachinery:itemblueprint:0:20.0:{dynamicmachine:\"modularmachinery:mythic_accelerator\"}",
+    "item:nuclearcraft:salt_mixer_idle:0:65.0",
+    "item:nuclearcraft:electrolyser_idle:0:65.0",
+    "item:nuclearcraft:melter_idle:0:65.0",
+    "item:nuclearcraft:crystallizer_idle:0:65.0",
+    "item:nuclearcraft:chemical_reactor_idle:0:65.0",
+    "item:nuclearcraft:dissolver_idle:0:65.0",
+    "item:nuclearcraft:manufactory_idle:0:65.0",
+    "item:nuclearcraft:extractor_idle:0:65.0",
+    "item:minecraft:crafting_table:0:64.0",
+    "item:modularmachinery:itemblueprint:0:10.0:{dynamicmachine:\"modularmachinery:sterilized_altar\"}",
+    "item:modularmachinery:itemblueprint:0:8.0:{dynamicmachine:\"modularmachinery:mythic_processor_melter\"}",
+    "item:modularmachinery:itemblueprint:0:16.0:{dynamicmachine:\"modularmachinery:mythic_processor_alloy_furnace\"}",
+    "item:modularmachinery:itemblueprint:0:8.0:{dynamicmachine:\"modularmachinery:mythic_processor_isotope_separator\"}",
+    "item:modularmachinery:itemblueprint:0:10.0:{dynamicmachine:\"modularmachinery:two_phase_fission_reactor\"}"
+  ]
+}
