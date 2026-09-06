@@ -151,7 +151,7 @@ public class Solver {
 		}
 		// set cost, arbitary value surely i wont need to increase this
 		for (int i = 0; i < m; i++) {
-			cost[n + i] = maxCoeff * 1000.0;
+			cost[n + i] = 1000000.0;
 		}
 
 		// Rates input
@@ -163,6 +163,21 @@ public class Solver {
 				res.inputRates.put(target, new Input(target.getValue()));
 				inputItems.remove(target);
 			}
+		}
+
+		// Normalize each constraint to keep large recipe graphs numerically stable.
+		// This does not change the feasible region, but prevents rates and recipe
+		// coefficients from having unnecessarily different magnitudes.
+		for (int i = 0; i < m; i++) {
+			double rowScale = 0.0;
+			for (int j = 0; j <= n; j++) {
+				rowScale = Math.max(rowScale, Math.abs(matrix[i][j]));
+			}
+			if (rowScale == 0.0) continue;
+			for (int j = 0; j <= n; j++) {
+				matrix[i][j] /= rowScale;
+			}
+			rates[i] /= rowScale;
 		}
 
 		// for (int i = 0; i < n; i++) {
@@ -185,7 +200,8 @@ public class Solver {
 					objectiveFunction,
 					new LinearConstraintSet(constraints),
 					GoalType.MINIMIZE,
-					new NonNegativeConstraint(true));
+					new NonNegativeConstraint(true),
+					PivotSelectionRule.BLAND);
 			double[] solutionPoint = solution.getPoint();
 			double optimalValue = solution.getValue();
 
@@ -228,6 +244,8 @@ public class Solver {
 		} catch (Exception e) {
 			if (Necalc.logger != null) {
 				Necalc.logger.error("Error during optimization: " + e.getMessage());
+			} else {
+				e.printStackTrace();
 			}
 		}
 		return res;

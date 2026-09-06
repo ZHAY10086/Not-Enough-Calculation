@@ -6,3 +6,4 @@
 ### Fixed
 - Fix tooltips of items in the top row appearing when hovering above the gui
 - Fix nodes rendered above other nodes having drag priority in flowchart view
+- Fix large values causing error in the solver
