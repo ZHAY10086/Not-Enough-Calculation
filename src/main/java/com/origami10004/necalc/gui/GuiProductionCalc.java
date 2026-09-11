@@ -388,7 +388,7 @@ public class GuiProductionCalc extends GuiCommon {
 	}
 
 	private void drawInputTable(int y, int mouseX, int mouseY) {
-		List<Map.Entry<Ingredients, Solver.Input>> visible = new ArrayList<>(CalculatorState.getVisibleInputs().entrySet());
+		List<Map.Entry<Ingredients, Solver.IngEntry>> visible = new ArrayList<>(CalculatorState.getVisibleInputs().entrySet());
 		int maxScroll = Math.max(0, visible.size() - TABLE_VIS_ROWS);
 		this.inputScrollRow = Math.max(0, Math.min(this.inputScrollRow, maxScroll));
 
@@ -412,7 +412,7 @@ public class GuiProductionCalc extends GuiCommon {
 			if (idx >= visible.size()) break; // no more steps to show
 
 			Ingredients input = visible.get(idx).getKey();
-			Solver.Input inputData = visible.get(idx).getValue();
+			Solver.IngEntry inputData = visible.get(idx).getValue();
 			boolean rowHovered = mouseX >= rowX && mouseX < rowX + rowW && mouseY >= rowY && mouseY < rowY + TABLE_ROW_H;
 			
 			int rowBg = rowHovered ? 0xFFA8B8D8 : 0xFFACACAC;
@@ -529,7 +529,7 @@ public class GuiProductionCalc extends GuiCommon {
 			int inputRow = getInputRowAt(mouseX, mouseY);
 			if (inputRow != -1 && inputRow < CalculatorState.getVisibleInputs().size()) {
 				if (mouseButton == 0) {
-					List<Map.Entry<Ingredients, Solver.Input>> visible = new ArrayList<>(CalculatorState.getVisibleInputs().entrySet());
+					List<Map.Entry<Ingredients, Solver.IngEntry>> visible = new ArrayList<>(CalculatorState.getVisibleInputs().entrySet());
 					int rowX = gx + INDENT_L + 1;
 					int rowW = GUI_WIDTH - INDENT_L - INDENT_R - 2;
 					if (visible.size() > TABLE_VIS_ROWS) rowW -= SB_W + 2;
@@ -788,7 +788,7 @@ public class GuiProductionCalc extends GuiCommon {
 		} else {
 			int inputRow = getInputRowAt(mouseX, mouseY);
 			if (inputRow != -1) {
-				List<Map.Entry<Ingredients, Solver.Input>> visible = new ArrayList<>(CalculatorState.getVisibleInputs().entrySet());
+				List<Map.Entry<Ingredients, Solver.IngEntry>> visible = new ArrayList<>(CalculatorState.getVisibleInputs().entrySet());
 				if (inputRow < visible.size()) {
 					return visible.get(inputRow).getKey();
 				}

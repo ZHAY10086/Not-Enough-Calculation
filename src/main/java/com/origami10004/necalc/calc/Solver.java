@@ -34,13 +34,14 @@ public class Solver {
 
 	public static class Result {
 		public List<ProductionStep> steps;
-		public LinkedHashMap<Ingredients, Input> inputRates;
+		public LinkedHashMap<Ingredients, IngEntry> inputRates;
+		public LinkedHashMap<Ingredients, IngEntry> outputRates;
 	}
 
-	public static class Input {
+	public static class IngEntry {
 		public double rate;
 		public boolean hidden;
-		public Input(double rate) {
+		public IngEntry(double rate) {
 			this.rate = rate;
 			this.hidden = false;
 		}
@@ -101,6 +102,7 @@ public class Solver {
 		targets = suppliedTargets;
 		recipes = suppliedRecipes;
 		res.inputRates = new LinkedHashMap<>();
+		res.outputRates = new LinkedHashMap<>();
 		if (targets.isEmpty() || recipes.isEmpty()) {
 			return res;
 		}
@@ -160,7 +162,7 @@ public class Solver {
 			if (itemId != null) rates[itemId] = target.getValue();
 			else {
 				// If this happens, none of recipes produce target item, treat it as input item
-				res.inputRates.put(target, new Input(target.getValue()));
+				res.inputRates.put(target, new IngEntry(target.getValue()));
 				inputItems.remove(target);
 			}
 		}
@@ -228,7 +230,7 @@ public class Solver {
 				for (Ingredients input : recipe.getInputs()) {
 					if (inputItems.contains(input)) {
 						double inputRate = ((double)input.getValue()) * recipePerMinute;
-						res.inputRates.put(input, new Input(res.inputRates.getOrDefault(input, new Input(0.0)).rate + inputRate));
+						res.inputRates.put(input, new IngEntry(res.inputRates.getOrDefault(input, new IngEntry(0.0)).rate + inputRate));
 					}
 				}
 			}
@@ -237,7 +239,7 @@ public class Solver {
 				double inputRate = solutionPoint[n + i];
 				if (inputRate > 1e-9) {
 					Ingredients inputItem = idToItem.get(i);
-					res.inputRates.put(inputItem, new Input(res.inputRates.getOrDefault(inputItem, new Input(0.0)).rate + inputRate));
+					res.inputRates.put(inputItem, new IngEntry(res.inputRates.getOrDefault(inputItem, new IngEntry(0.0)).rate + inputRate));
 				}
 			}
 

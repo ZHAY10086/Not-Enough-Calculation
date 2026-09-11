@@ -12,7 +12,8 @@ public class CalculatorState {
 	private static final List<Ingredients> targets = new ArrayList<>();
 	private static int[] rateMultiplier = new int[] {1, 60, 1200};
 	private static List<ProductionStep> recipeSteps;
-	private static LinkedHashMap<Ingredients, Solver.Input> recipeInputs;
+	private static LinkedHashMap<Ingredients, Solver.IngEntry> recipeInputs;
+	private static LinkedHashMap<Ingredients, Solver.IngEntry> recipeOutputs;
 	private static HashSet<Ingredients> targetItems = new HashSet<>();
 
 	private static boolean recentReset = false;
@@ -21,6 +22,7 @@ public class CalculatorState {
 	public static void init() {
 		recipeSteps = new ArrayList<>();
 		recipeInputs = new LinkedHashMap<>();
+		recipeOutputs = new LinkedHashMap<>();
 		cached = false;
 	}
 
@@ -181,12 +183,13 @@ public class CalculatorState {
 		Solver.Result result = Solver.solve();
 		recipeSteps.addAll(result.steps);
 		recipeInputs.putAll(result.inputRates);
+		recipeOutputs.putAll(result.outputRates);
 
 		cached = true;
 		return true;
 	}
 
-	public static Map<Ingredients, Solver.Input> getVisibleInputs() {
+	public static Map<Ingredients, Solver.IngEntry> getVisibleInputs() {
 		getResult();
 		return recipeInputs.entrySet().stream()
 				.filter(entry -> !entry.getValue().hidden)

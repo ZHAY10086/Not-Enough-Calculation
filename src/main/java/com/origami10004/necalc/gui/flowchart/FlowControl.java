@@ -17,6 +17,7 @@ import java.util.Comparator;
 public class FlowControl {
 	private static final int COL_PAD = 80;
 	private static final int ROW_PAD = 30;
+	private static final double EPSILON = 1e-6;
 	private static int panX = -50;
 	private static int panY = -50;
 	private static double zoom = 1.0;
@@ -115,9 +116,9 @@ public class FlowControl {
 			}
 			temp.setValue(Math.max(totalConsumed, totalProduced));
 			FlowItemNode itemNode;
-			if (totalConsumed > totalProduced) {
+			if (totalConsumed > totalProduced + EPSILON) {
 				itemNode = new FlowInputNode(temp, 0, 0);
-			} else if (totalProduced > totalConsumed) {
+			} else if (totalProduced > totalConsumed + EPSILON) {
 				if (CalculatorState.getTargets().contains(item)) {
 					itemNode = new FlowOutputNode(temp, 0, 0);
 				} else {
