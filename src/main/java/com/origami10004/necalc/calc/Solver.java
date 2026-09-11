@@ -21,6 +21,8 @@ import com.origami10004.necalc.data.MachineState;
 import com.origami10004.necalc.data.ingredient.*;
 
 public class Solver {
+	private static final double EPSILON = 1e-9;
+
 	private static List<Ingredients> targets;
 	private static List<RecipeEntry> recipes;
 
@@ -161,8 +163,9 @@ public class Solver {
 			Integer itemId = itemToId.get(target);
 			if (itemId != null) rates[itemId] = target.getValue();
 			else {
-				// If this happens, none of recipes produce target item, treat it as input item
+				// If this happens, none of recipes produce target item, treat it as input item, but also technically output itself
 				res.inputRates.put(target, new IngEntry(target.getValue()));
+				res.outputRates.put(target, new IngEntry(target.getValue()));
 				inputItems.remove(target);
 			}
 		}
@@ -218,7 +221,7 @@ public class Solver {
 
 			for (int i = n - 1; i >= 0; i--) {
 				double machineCount = solutionPoint[i];
-				if (machineCount < 1e-9) continue;
+				if (machineCount < EPSILON) continue;
 
 				RecipeEntry recipe = recipes.get(idToRecipe.get(i));
 					int speed = suppliedMachineSpeeds.getOrDefault(recipe.getMachine(), 1);
@@ -227,9 +230,20 @@ public class Solver {
 
 				res.steps.add(new ProductionStep(recipe, machineCount, recipePerMinute));
 
+				for (Ingredients output : recipe.getOutputs()) {
+					double outputRate = ((double) output.getValue()) * recipePerMinute;
+					IngEntry current = res.outputRates.get(output);
+					double netRate = (current == null ? 0.0 : current.rate) + outputRate;
+					res.outputRates.putIfAbsent(output, new IngEntry(0.0));
+					res.outputRates.get(output).rate = netRate;
+				}
+
 				for (Ingredients input : recipe.getInputs()) {
+					double inputRate = ((double) input.getValue()) * recipePerMinute;
+					res.outputRates.putIfAbsent(input, new IngEntry(0.0));
+					res.outputRates.get(input).rate -= inputRate;
+
 					if (inputItems.contains(input)) {
-						double inputRate = ((double)input.getValue()) * recipePerMinute;
 						res.inputRates.put(input, new IngEntry(res.inputRates.getOrDefault(input, new IngEntry(0.0)).rate + inputRate));
 					}
 				}
@@ -237,11 +251,13 @@ public class Solver {
 
 			for (int i = 0; i < m; i++) {
 				double inputRate = solutionPoint[n + i];
-				if (inputRate > 1e-9) {
+				if (inputRate > EPSILON) {
 					Ingredients inputItem = idToItem.get(i);
 					res.inputRates.put(inputItem, new IngEntry(res.inputRates.getOrDefault(inputItem, new IngEntry(0.0)).rate + inputRate));
 				}
 			}
+
+			res.outputRates.entrySet().removeIf(entry -> entry.getValue().rate <= EPSILON);
 
 		} catch (Exception e) {
 			if (Necalc.logger != null) {

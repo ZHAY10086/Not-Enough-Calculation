@@ -40,7 +40,7 @@ public class SolverFixtureTest {
 
         assertFalse("NC Fission fixture produced no production steps", result.steps.isEmpty());
         assertFalse("NC Fission fixture produced no input rates", result.inputRates.isEmpty());
-        for (Solver.Input input : result.inputRates.values()) {
+        for (Solver.IngEntry input : result.inputRates.values()) {
             assertFalse(Double.isNaN(input.rate));
             assertFalse(Double.isInfinite(input.rate));
         }

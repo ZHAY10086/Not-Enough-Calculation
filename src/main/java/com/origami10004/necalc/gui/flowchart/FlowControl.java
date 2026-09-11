@@ -17,7 +17,7 @@ import java.util.Comparator;
 public class FlowControl {
 	private static final int COL_PAD = 80;
 	private static final int ROW_PAD = 30;
-	private static final double EPSILON = 1e-6;
+	private static final double EPSILON = 1e-9;
 	private static int panX = -50;
 	private static int panY = -50;
 	private static double zoom = 1.0;
@@ -211,7 +211,6 @@ public class FlowControl {
 		}
 
 		for (Ingredients item : allItems) {
-			FlowItemNode itemNode = itemToNode.get(item);
 			List<int[]> consumers = consumerMap.getOrDefault(item, new ArrayList<>());
 			List<int[]> producers = producerMap.getOrDefault(item, new ArrayList<>());
 			double maxProdRight = 0;

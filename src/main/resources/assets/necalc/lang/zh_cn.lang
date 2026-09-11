@@ -23,11 +23,14 @@ necalc.gui.target_rate=速率：%s
 necalc.gui.machine_count=数量：%s
 necalc.gui.results=所需生产速率
 necalc.gui.inputs=所需输入速率
+necalc.gui.outputs=输出速率
 necalc.gui.inventory=物品栏
 necalc.gui.show_recipe.some=显示隐藏配方（%d）
 necalc.gui.show_recipe.none=显示隐藏配方（无）
 necalc.gui.show_input.some=显示隐藏输入（%d）
 necalc.gui.show_input.none=显示隐藏输入（无）
+necalc.gui.show_output.some=显示隐藏输出（%d）
+necalc.gui.show_output.none=显示隐藏输出（无）
 
 # recipe viewer
 necalc.gui.arrow_time=处理时间：%s秒（%s刻），加速倍率：%dx

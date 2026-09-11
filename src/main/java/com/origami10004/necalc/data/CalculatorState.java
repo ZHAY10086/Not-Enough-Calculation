@@ -3,6 +3,7 @@ package com.origami10004.necalc.data;
 import com.origami10004.necalc.calc.Solver;
 import com.origami10004.necalc.data.ingredient.*;
 import com.origami10004.necalc.gui.flowchart.FlowControl;
+import com.origami10004.necalc.gui.GuiProductionCalc;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -111,29 +112,43 @@ public class CalculatorState {
 		return false;
 	}
 
-	public static boolean hasHidden(boolean showProd) {
+	public static boolean hasHidden(GuiProductionCalc.TableType tableView) {
 		getResult();
-		if (showProd) {
-			return recipeSteps.stream()
-					.filter(r -> r.isHidden())
-					.count() > 0;
-		} else {
-			return recipeInputs.entrySet().stream()
-					.filter(entry -> entry.getValue().hidden)
-					.count() > 0;
+		switch(tableView) {
+			case PROD:
+				return recipeSteps.stream()
+						.filter(r -> r.isHidden())
+						.count() > 0;
+			case INPUT:
+				return recipeInputs.entrySet().stream()
+						.filter(entry -> entry.getValue().hidden)
+						.count() > 0;
+			case OUTPUT:
+				return recipeOutputs.entrySet().stream()
+						.filter(entry -> entry.getValue().hidden)
+						.count() > 0;
+			default:
+				return false;
 		}
 	}
 
-	public static int getHiddenCount(boolean showProd) {
+	public static int getHiddenCount(GuiProductionCalc.TableType tableView) {
 		getResult();
-		if (showProd) {
-			return (int) recipeSteps.stream()
-					.filter(r -> r.isHidden())
-					.count();
-		} else {
-			return (int) recipeInputs.entrySet().stream()
-					.filter(entry -> entry.getValue().hidden)
-					.count();
+		switch(tableView) {
+			case PROD:
+				return (int) recipeSteps.stream()
+						.filter(r -> r.isHidden())
+						.count();
+			case INPUT:
+				return (int) recipeInputs.entrySet().stream()
+						.filter(entry -> entry.getValue().hidden)
+						.count();
+			case OUTPUT:
+				return (int) recipeOutputs.entrySet().stream()
+						.filter(entry -> entry.getValue().hidden)
+						.count();
+			default:
+				return 0;
 		}
 	}
 
@@ -180,6 +195,7 @@ public class CalculatorState {
 		if (cached) return false;
 		recipeSteps.clear();
 		recipeInputs.clear();
+		recipeOutputs.clear();
 		Solver.Result result = Solver.solve();
 		recipeSteps.addAll(result.steps);
 		recipeInputs.putAll(result.inputRates);
@@ -209,5 +225,22 @@ public class CalculatorState {
 	public static List<ProductionStep> getAllRecipes() {
 		getResult();
 		return recipeSteps;
+	}
+
+	public static Map<Ingredients, Solver.IngEntry> getVisibleOutputs() {
+		getResult();
+		return recipeOutputs.entrySet().stream()
+				.filter(entry -> !entry.getValue().hidden)
+				.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (a, b) -> a, LinkedHashMap::new));
+	}
+
+	public static void hideOutput(Ingredients output) {
+		if (recipeOutputs.containsKey(output)) {
+			recipeOutputs.get(output).hidden = true;
+		}
+	}
+
+	public static void showAllOutputs() {
+		recipeOutputs.values().forEach(output -> output.hidden = false);
 	}
 }

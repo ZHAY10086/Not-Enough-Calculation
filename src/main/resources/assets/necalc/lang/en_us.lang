@@ -23,11 +23,14 @@ necalc.gui.target_rate=Rate: %s
 necalc.gui.machine_count=Count: %s
 necalc.gui.results=Required Production Rates
 necalc.gui.inputs=Required Input Rates
+necalc.gui.outputs=Output Rates
 necalc.gui.inventory=Inventory
 necalc.gui.show_recipe.some=Show Hidden Recipes (%d hidden)
 necalc.gui.show_recipe.none=Show Hidden Recipes (none)
 necalc.gui.show_input.some=Show Hidden Inputs (%d hidden)
 necalc.gui.show_input.none=Show Hidden Inputs (none)
+necalc.gui.show_output.some=Show Hidden Outputs (%d hidden)
+necalc.gui.show_output.none=Show Hidden Outputs (none)
 
 # recipe viewer
 necalc.gui.arrow_time=Processing time: %s seconds (%s ticks) with %dx speed up
